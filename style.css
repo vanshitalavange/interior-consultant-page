@@ -1,19 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap");
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: #ffffff;
   background-color: #181719;
 }
 .page {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
+  margin:1.7rem 2.5rem;
+  width:95vw;
+
 }
 /** nav bar **/
 .nav-bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .nav-heading {
@@ -23,7 +29,29 @@ body {
   line-height: 1rem;
   border: 1px solid #ffffff;
   padding: 0.5rem;
+  height: fit-content;
 }
+
+.nav-list{
+  margin-block-start: 0.6em;
+  padding-inline-start: 0;
+  list-style: none;
+  margin-right:0;
+ 
+}
+.nav-list-item{
+  display: inline-block;
+}
+.nav-links{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size:1.1rem;
+  line-height: 1.37rem;
+  color:#ffffff;
+  text-decoration: none;
+  padding:0 25px;
+}
+
 
 .page__graphics {
   display: flex;
