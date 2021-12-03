@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://kit.fontawesome.com/a076d05399.js");
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
-  background-color: #181719;
+  color: #ffffff; 
+  background-color: #181719; 
 }
 .page {
 
@@ -64,6 +65,7 @@ body {
   width:50%;
 }
 
+/** section **/
 .page__main{
   height:28vw;
   display: flex;
@@ -72,11 +74,43 @@ body {
 }
 
 .page__info{
+  align-self: center;
   display: flex;
   flex-direction: column;
   width:30%;
-  align-self: center;
+  justify-content: space-around;
+  
 }
+
+.info-heading{
+  font-family: Lora;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.84rem;
+}
+
+.info-desc{
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.read-more{
+  display: flex;
+}
+.read-more-text{
+  font-family:Montserrat;
+  font-weight: bold;
+  font-size:1.1rem;
+  line-height: 1.3rem;
+}
+
+.read-more-icon{
+  
+  width:2rem;
+  height:1.8rem;
+}
+
+
 
 .page__graphics{
   align-items: flex-start;
