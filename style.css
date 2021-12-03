@@ -63,7 +63,22 @@ body {
   background-color: #ffffff;
   width:50%;
 }
-.page__graphics {
+
+.page__main{
+  height:28vw;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.page__info{
+  display: flex;
+  flex-direction: column;
+  width:30%;
+  align-self: center;
+}
+
+.page__graphics{
+  align-items: flex-start;
+  width:70%;;
 }
