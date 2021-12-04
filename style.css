@@ -137,11 +137,39 @@ body {
 
 
 /** page card **/
+
+.page-card{
+  width:45%;
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+  gap:3vh;
+  align-self: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left:44%;
+  position: relative;
+  margin-top:-10%;
+  background-color: #181719;
+  height: 19%;
+}
+.card-profile{
+  width:10.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.person-image{
+  border-radius: 50%;
+  width:25%;
+}
+
 .person-name{
   font-family: Montserrat;
   font-weight:500;
   font-size:1rem;
   line-height:1rem;
+  margin-bottom: 0.4rem;
 }
 
 .person-position{
@@ -157,4 +185,21 @@ body {
   font-weight:700;
   font-size:1.5rem;
   line-height: 2rem;
+  width:80%;
+}
+
+/** footer **/
+.page__footer{
+  text-align: center;
+  color:#A9A9A9;
+  font-family:Montserrat;
+  font-weight:500;
+  font-size: 1rem;
+  line-height: 1rem;
+
+}
+
+.page__footer a{
+  color:#A9A9A9;
+  
 }
