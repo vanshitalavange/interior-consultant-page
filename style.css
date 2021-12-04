@@ -12,9 +12,9 @@ body {
   display: flex;
   flex-direction: column;
   margin:1.7rem 3rem;
-  min-height:100vh; 
+  /* min-height:100vh;  */
   justify-content: space-between;
-  gap:4vh 0;
+  gap:15vh;
 
 }
 /** nav bar **/
@@ -71,16 +71,17 @@ body {
 
 
 .page__main{
-  min-height: 90vh;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+
 }
 
 /** page info **/
 .page__info{
   width:35%;
+  margin-top:8%;
   display: flex;
   flex-direction: column;
   gap:4vh;
@@ -126,12 +127,12 @@ body {
   justify-content: center;
     align-items: flex-end;  
    width:60%;
-   height:40em;  
+   
 }
 
 .page__image{
    width:90%;
-  height: 80vh; 
+
 }
 
 
