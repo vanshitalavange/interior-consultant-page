@@ -67,7 +67,7 @@ body {
 
 /** section **/
 .page__main{
-  height:28vw;
+  min-height:35em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -78,6 +78,7 @@ body {
   display: flex;
   flex-direction: column;
   width:30%;
+  height: 19em;
   justify-content: space-around;
   
 }
@@ -96,6 +97,8 @@ body {
 }
 .read-more{
   display: flex;
+  justify-content: space-between;
+  width:38%;
 }
 .read-more-text{
   font-family:Montserrat;
@@ -106,8 +109,8 @@ body {
 
 .read-more-icon{
   
-  width:2rem;
-  height:1.8rem;
+  width:1.5rem;
+  height:1.6rem;
 }
 
 
