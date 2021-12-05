@@ -1,9 +1,8 @@
-
-function eventHandler(){
-    var deviceWidth = document.body.clientWidth;
-    if(deviceWidth>480){
-        document.location.href = "index.html";
-    }
+function eventHandler() {
+  var deviceWidth = document.body.clientWidth;
+  if (deviceWidth > 480) {
+    document.location.href = "index.html";
+  }
 }
 
-window.addEventListener("resize", eventHandler)
+window.addEventListener("resize", eventHandler);
