@@ -217,9 +217,14 @@ body {
   }
    .page{
     margin:1.5rem 1rem;
+    /* width:92vw; */
    }
    #menu-icon{
-     margin-top:0.5rem
+     transform: scale(1.4,1);
+    
+   }
+   .nav-pills{
+     align-self: center;
    }
 }
 
