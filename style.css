@@ -197,7 +197,13 @@ body {
   font-weight: 700;
   color: var(--gray-color);
 }
-
+/** mobile menu when not responsive **/
+.menu-items{
+  display:none;
+}
+.close-icon{
+  display: none;
+}
 /** media queries **/
 
 @media (max-width: 480px) {
@@ -209,6 +215,7 @@ body {
     color: var(--secondary-color);
   }
   .close-icon {
+    display: block;
     width: 9vw;
     margin-top: 1rem;
     margin-left: 88%;
