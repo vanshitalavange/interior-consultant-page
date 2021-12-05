@@ -201,6 +201,7 @@ body {
 }
 
 .page__footer a{
+  font-weight: 700;
   color:#A9A9A9;
   
 }
@@ -213,19 +214,140 @@ body {
     display: none;
   }
   #menu-icon{
-    display:block;
+    /* display:block; */
+    margin-right: 0.2rem;
   }
    .page{
-    margin:1.5rem 1rem;
-    /* width:92vw; */
+    margin:1.5rem 0.8rem;
+    gap:6vh;
    }
    #menu-icon{
      transform: scale(1.4,1);
     
    }
+   
    .nav-pills{
      align-self: center;
    }
+
+   /** section **/
+   .page__main{
+     flex-wrap: wrap;
+     gap:6vh;
+  
+   }
+   /** page info **/
+.page__info{
+  width:100%; 
+  margin-top:0; 
+  gap:3.5vh;
+  
+}
+
+.info-heading{
+  font-size: 2.25rem;
+  line-height: 2.8rem;
+}
+
+.info-desc{
+  font-size: 1rem;
+  line-height: 1rem;
+  width:75%;
+  
+}
+.read-more{
+ 
+  width:37%;
+}
+.read-more-text{
+
+  font-size:1rem;
+  line-height: 1rem;
+  align-self: center;
+}
+
+.read-more-icon{
+
+  margin-top:0.2rem;
+}
+
+/** page graphics **/
+
+.page__graphics{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;  
+  width:100%;
+   
+}
+
+.page__image{
+   width:100%;
+
+}
+
+
+
+/** page card **/
+
+.page-card{
+  width:75%;
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+  gap:2.5vh;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left:8%;
+  position: relative;
+  margin-top:-17%;
+  background-color:#181719;
+  height: fit-content;
+}
+.card-profile{
+  width:8.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.person-image{
+  border-radius: 50%;
+  width:30%;
+}
+
+.person-name{
+  font-family: Montserrat;
+  font-weight:500;
+  font-size:12px;
+  line-height:14.63px;
+  margin-bottom: 0.4rem;
+}
+
+.person-position{
+  font-family: Montserrat;
+  font-weight:500;
+  font-size:10px;
+  line-height:12.19px;
+  color:#828282;
+  
+}
+
+.card-title{
+  font-family: Lora;
+  font-weight:700;
+  font-size: 1.1rem;;
+  line-height:1.4rem;
+  width:80%;
+  margin-bottom: 0.5rem;
+}
+
+/** footer **/
+.page__footer{
+  font-size: 14px;
+
+}
+   
 }
 
 @media (min-width:481px){
