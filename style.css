@@ -217,6 +217,33 @@ body {
   }
   #menu-icon{
     margin-right: 0.2rem;
+    color:#ffffff;
+  }
+  .close-icon{
+    width:9vw;
+    margin-top:1rem;
+    margin-left:88%;
+
+  }
+  .menu-items{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size:18px;
+    line-height: 21.94px;
+    gap:3.5vh;
+  }
+  .home-text{
+    font-weight: 700;
+
+  }
+  .highlight{
+    width:100%;
+    margin-left:2%;
   }
    .page{
     margin:1.5rem 0.8rem;
