@@ -80,7 +80,7 @@ body {
 /** page info **/
 .page__info {
   width: 35%;
-  margin-top: 8%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   gap: 4vh;
