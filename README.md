@@ -36,7 +36,17 @@
 
 ## Overview
 
-![screenshot](images/interior-consultant-combined.png)
+- Desktop view
+
+  ![screenshot](images/interior-desktop.png)
+
+- Mobile view
+
+  ![screenshot](images/interior-mobile.png)
+
+- Mobile hamburger menu
+
+  ![screenshot](images/interior-menu.png)
 
 
 ### Built With
